@@ -1,0 +1,1 @@
+"""Graphite desktop application."""

@@ -1,0 +1,58 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Linter and test caches
+.ruff_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local state & workspaces
+.state/
+.agents/
+.build/
+
+# Build artifacts & standalone outputs
+build/
+dist/
+*.spec
+!.source/standalone_template/standalone_player.spec
+*.exe
+output/
+output_project/
+output_rendered/
+.source/output/
+.source/.build/
+.source/.agents/
+.source/.ruff_cache/
+
+# Videos and large media files (GitHub has a 100MB file limit)
+videos/
+*.mp4
+*.avi
+*.mkv
+*.mov
+*.webm
+*.flv
+*.wmv
+.source/asci.mp4
+*.log
+.env
+.env.*
+*_stress_results.json
+
+# Operating System & IDE
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
